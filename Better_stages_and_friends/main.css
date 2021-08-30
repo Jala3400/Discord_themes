@@ -139,3 +139,19 @@
     margin: 1.8% !important;
     border-radius: 8px;
 }
+
+/* Better friends list */
+.mutualGuilds-s7F2aa {
+    display: block;
+    flex: 0;
+    margin-bottom: 20px;
+}
+.iconSizeSmaller-2whVAO {
+    margin-top: 4px;
+    right: 10px;
+}
+.iconContainerMasked-G-akdf.iconContainer-IBAtWs {
+    -webkit-mask: none;
+    mask: none;
+    margin-right: 4px;
+}
