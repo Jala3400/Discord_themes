@@ -1,0 +1,31 @@
+div[data-user-id^="661306358498328594"] /* for betterdiscord */
+    > .contents-2mQqc9
+    > .header-23xsNx
+    > .headerText-3Uvj1Y
+    > .username-1A8OIy,
+div[data-is-author-self="true"] /* for powercord */
+    > .contents-2mQqc9
+    > .header-23xsNx
+    > .headerText-3Uvj1Y
+    > .username-1A8OIy,
+.title-eS5yk3{
+    background-image: linear-gradient(
+        to right,
+        #ff0400,
+        #ff9500,
+        #ffff00,
+        #00ff00,
+        #00b7ff,
+        #6f00ff,
+        #ff00ee
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 1000s linear infinite;
+}
+@keyframes move {
+    to {
+        background-position: 26000px;
+    }
+}
