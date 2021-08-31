@@ -1,2 +1,2 @@
-# Discord_themes
+# Discord themes
 Some discord css snippets and themes
