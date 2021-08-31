@@ -1,0 +1,73 @@
+/* Input */
+
+.form-2fGMdU:before {
+    display: none;
+}
+.channelTextArea-rNsIhG,
+.wrapper-39oAo3 {
+    margin: 5px 0;
+    border: none !important;
+    background-color: transparent;
+}
+.scrollableContainer-2NUZem {
+    transition: var(--s-transition-duration);
+}
+.scrollableContainer-2NUZem:focus-within {
+    border-bottom: 2px ridge var(--main-light-color) !important;
+}
+.fontSize16Padding-3Wk7zP {
+    caret-color: var(--main-light-color);
+}
+.typing-2GQL18 {
+    top: -17px;
+    width: 40%;
+    overflow: visible;
+}
+.base-gE7OpD .cooldownWrapper-3joyFc {
+    position: relative;
+    right: 100%;
+    top: 32px;
+}
+
+/* Jump to present */
+
+.jumpToPresentBar-G1R9s6 {
+    padding: 0;
+    border-radius: 50px;
+    right: 25px;
+    bottom: 45px;
+    left: unset;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 0.3s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+}
+.jumpToPresentBar-G1R9s6 .spinner-2enMB9 {
+    padding: 0;
+}
+.jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ {
+    display: none;
+}
+.jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
+    font-size: 0px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+}
+.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+@keyframes slidein {
+    from {
+        bottom: -50px;
+    }
+    to {
+        bottom: 45px;
+    }
+}
