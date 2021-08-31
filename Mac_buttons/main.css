@@ -1,0 +1,32 @@
+.withFrame-haYltI {
+    margin: 0 !important;
+    padding-top: 4px;
+}
+.typeWindows-1za-n7 .winButton-iRh8-Z:after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: var(--s-transition-duration);
+    pointer-events: none;
+}
+.typeWindows-1za-n7
+    .winButton-iRh8-Z.winButtonMinMax-PBQ2gm:nth-last-of-type(2):hover:after {
+    background-color: #00ca4e;
+}
+.typeWindows-1za-n7
+    .winButton-iRh8-Z.winButtonMinMax-PBQ2gm:nth-last-of-type(1):hover:after {
+    background-color: #ffbd44;
+}
+.typeWindows-1za-n7 .winButton-iRh8-Z.winButtonClose-1HsbF-:hover:after {
+    background-color: #ff605c;
+}
+.typeWindows-1za-n7 .winButton-iRh8-Z:hover,
+.typeWindows-1za-n7 .winButton-iRh8-Z:active {
+    background-color: transparent;
+}
+.typeWindows-1za-n7 .winButton-iRh8-Z svg {
+    display: none;
+}
