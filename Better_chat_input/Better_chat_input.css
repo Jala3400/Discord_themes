@@ -1,3 +1,7 @@
+:root{
+    --main-light-color: hsl(152, 100%, 50%); /* hsl(152, 100%, 50%) */
+    --s-transition-duration: 0.1s;
+}
 /* Input */
 
 .form-2fGMdU:before {
