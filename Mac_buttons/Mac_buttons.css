@@ -1,3 +1,6 @@
+ :root{
+    --s-transition-duration: 0.1s;
+}
 .withFrame-haYltI {
     margin: 0 !important;
     padding-top: 4px;
