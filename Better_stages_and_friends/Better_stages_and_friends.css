@@ -11,10 +11,10 @@
     --stage-height: 200px;
     
     /* Transitions */
-    --xs-transition-duration: 0.05s ease-in-out;
-    --s-transition-duration: 0.1s ease-in-out;
-    --sm-transition-duration: 0.2s ease-in-out;
-    --m-transition-duration: 0.3s ease-in-out;
+    --xs-transition-duration: 0.05s;
+    --s-transition-duration: 0.1s;
+    --sm-transition-duration: 0.2s;
+    --m-transition-duration: 0.3s;
 }
 .peopleList-3c4jOR > div {
     display: flex;
