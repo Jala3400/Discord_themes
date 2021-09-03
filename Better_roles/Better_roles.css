@@ -1,9 +1,12 @@
+:root{
+    --s-transition-duration: 0.1s;
+}
 .role-2irmRk {
     position: relative;
     display: inline-flex;
     flex-direction: row-reverse;
     border-radius: 3px;
-    transition: all 0.1s ease-in-out;
+    transition: var(--s-transition-duration);
     cursor: pointer;
     vertical-align: bottom;
     background: rgba(255, 255, 255, 0.1);
