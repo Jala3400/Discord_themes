@@ -13,7 +13,8 @@ div[data-is-author-self="true"] /* for powercord */
     > .contents-2mQqc9
     > .header-23xsNx
     > .headerText-3Uvj1Y
-    > .username-1A8OIy {
+    > .username-1A8OIy,
+    .title-eS5yk3 {
     background-image: linear-gradient(
         to right,
         /* You can change the colors */
