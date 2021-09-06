@@ -16,13 +16,7 @@
     --sm-transition-duration: 0.2s;
     --m-transition-duration: 0.3s;
 }
-.peopleList-3c4jOR > div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 15px;
-}
+
 .peopleList-3c4jOR {
     padding-top: 25px;
 }
@@ -33,6 +27,13 @@
     font-size: 15px;
     font-weight: 700;
     transition: var(--s-transition-duration);
+}
+.peopleList-3c4jOR > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
 }
 .peopleListItem-2nzedh {
     position: relative;
@@ -45,10 +46,15 @@
     transition: var(--s-transition-duration);
     background-color: var(--background-secondary);
     display: none;
+    overflow: visible !important;
 }
 .peopleListItem-2nzedh:hover {
     background-color: var(--background-tertiary);
     box-shadow: var(--card-box-shadow);
+}
+.peopleListItem-2nzedh:hover .actions-1SQwjn {
+    position: absolute;
+    display: flex;
 }
 .actions-1SQwjn {
     display: none;
@@ -57,41 +63,30 @@
     margin: 0;
     transition: var(--s-transition-duration);
 }
-.actionButton-uPB8Fs {
+.peopleListItem-2nzedh:hover .actions-1SQwjn .actionButton-uPB8Fs {
     box-shadow: var(--card-box-shadow);
-}
-.peopleListItem-2nzedh:hover .actions-1SQwjn {
-    position: absolute;
-    display: flex;
-}
-.mutualGuilds-s7F2aa {
-    display: block;
-    flex: 0;
-    margin-bottom: 20px;
-}
-.iconSizeSmaller-2whVAO {
-    margin-top: 4px;
-    right: 10px;
-}
-.iconContainerMasked-G-akdf.iconContainer-IBAtWs {
-    -webkit-mask: none;
-    mask: none;
-    margin-right: 4px;
-}
-.text-37NqbO {
-    width: calc(var(--friend-width) * 0.9);
-    position: relative;
-    margin-left: -95px;
+    background-color: var(--background-tertiary);
 }
 .avatar-3W3CeO {
-    transform: scale(2.8);
-    margin-top: calc(var(--friend-height) * 0.3);
-    margin-left: calc(var(--friend-width) * 0.4);
+    width: var(--friend-width);
+    height: var(--friend-height);
+    transform: scale(3);
+    top: calc(var(--friend-height) * 0.3);
+    left: calc(var(--friend-width) * 0.4);
+    overflow: visible;
+}
+.avatar-3W3CeO:hover {
+    transform: scale(3.5) !important;
+}
+.text-37NqbO {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 .userInfo-2zN2z8 {
-    height: calc(var(--friend-height) * 0.9);
     position: relative;
-    width: 135px;
+    width: var(--friend-width);
+    height: var(--friend-height);
 }
 .username-31C1TQ {
     white-space: nowrap;
@@ -140,18 +135,11 @@
     border-radius: 8px;
 }
 
-/* Better friends list */
+/* Better friend list */
 .mutualGuilds-s7F2aa {
-    display: block;
-    flex: 0;
-    margin-bottom: 20px;
-}
-.iconSizeSmaller-2whVAO {
-    margin-top: 4px;
-    right: 10px;
-}
-.iconContainerMasked-G-akdf.iconContainer-IBAtWs {
-    -webkit-mask: none;
-    mask: none;
-    margin-right: 4px;
+    position: absolute;
+    top: -7%;
+    width: var(--friend-width);
+    justify-content: center;
+    margin: 0;
 }
