@@ -279,6 +279,7 @@
 .listScroller-3GmIYj,
 .topSection-y3p-_D .tabBarContainer-37hZsr,
 .connectedAccount-2Jb-Z0,
+.listRow-1iDGel,
 .topSection-y3p-_D
     .tabBarContainer-37hZsr
     .tabBar-3nvOPa
@@ -294,7 +295,8 @@
 .infoScroller-1Qu30O,
 .listScroller-3GmIYj,
 .topSection-y3p-_D .tabBarContainer-37hZsr,
-.connectedAccount-2Jb-Z0 {
+.connectedAccount-2Jb-Z0,
+.listRow-1iDGel:hover {
     border-radius: 16px;
 }
 .connectedAccount-2Jb-Z0 {
