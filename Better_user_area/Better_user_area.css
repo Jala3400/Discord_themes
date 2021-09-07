@@ -1,3 +1,10 @@
+:root{
+    --channels-width: 240px; /* 240px */
+}
+
+.sidebar-2K8pFh {
+    width: var(--channels-width);
+}
 
 /** USER AREA */
 
