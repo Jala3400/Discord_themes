@@ -1,0 +1,121 @@
+
+/* Search button */
+
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
+    width: 24px;
+    transition: 0.25s;
+    background-color: transparent;
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
+    width: 144px;
+    background-color: var(--background-tertiary);
+}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN {
+    transform: scale(1.25);
+    transition: var(--sm-transition-duration);
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN {
+    transform: scale(1);
+}
+.icon-3cZ1F_ {
+    color: var(--main-color);
+}
+.searchFilter-2ESiM3,
+.searchAnswer-3Dz2-q {
+    background-color: var(--main-color) !important;
+}
+
+/* Stage at the channel section minimizes itself */
+.channelNotice-2bJINM {
+    height: 20px;
+    margin: 0;
+    padding: 16px;
+    transition: 0.2s ease-in-out;
+}
+.channelNotice-2bJINM .textBlock-2FWDjE {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    transition: 0.3s ease-in-out;
+}
+.channelNotice-2bJINM button {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+}
+.channelNotice-2bJINM:hover {
+    height: 152px;
+}
+.channelNotice-2bJINM:hover .textBlock-2FWDjE {
+    height: 16px;
+    margin: 4px auto;
+    opacity: 1;
+}
+.channelNotice-2bJINM:hover button {
+    height: 32px;
+    margin: unset;
+    padding: unset;
+    opacity: 1;
+}
+.eventName-2YgbEu:after {
+    content: " stage";
+    opacity: 0.5;
+    transition: var(--m-transition-duration);
+    font-size: 10px;
+}
+.channelNotice-2bJINM:hover .eventName-2YgbEu:after {
+    opacity: 0;
+}
+/** Messages */
+
+/* Edit date */
+.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe)
+    .markup-2BOw-j
+    .timestampInline-yHQ6fX
+    > [aria-label]::after {
+    content: "-(" attr(aria-label) ")";
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+/* LINKS */
+
+.fakeLink-26oLcc,
+.embed-IeVjo6 > .embedTitleLink-1Zla9e,
+.markup-2BOw-j a,
+.content-2M3n_H a {
+    color: var(--main-light-color);
+}
+.markup-2BOw-j > [href^="http://"]
+{
+    color: var(--danger-color) !important;
+}
+
+/* Watch offline */
+.container-16j22k {
+    background: transparent;
+    pointer-events: none;
+}
+.container-16j22k > div {
+    display: none;
+}
+.container-16j22k::before {
+    content: "You've gone offline";
+    display: block;
+    bottom: 24px;
+    right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+}
+.liveSmall-1dy2uA {
+    color: var(--main-color);
+    background-color: var(--main-color) !important;
+    width: 0;
+}
