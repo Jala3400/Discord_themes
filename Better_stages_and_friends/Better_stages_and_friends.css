@@ -68,11 +68,9 @@
     background-color: var(--background-tertiary);
 }
 .avatar-3W3CeO {
-    width: var(--friend-width);
-    height: var(--friend-height);
     transform: scale(3);
     top: calc(var(--friend-height) * 0.3);
-    left: calc(var(--friend-width) * 0.4);
+    left: calc(var(--friend-width) * 0.41);
     overflow: visible;
 }
 .avatar-3W3CeO:hover {
