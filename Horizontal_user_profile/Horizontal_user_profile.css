@@ -166,7 +166,6 @@
     backdrop-filter: blur(0px);
 }
 
-
 /* User profile */
 
 /* General */
@@ -208,7 +207,7 @@
 }
 .badgeList-1R1WgZ {
     position: absolute;
-    width: 250px;
+    width: 250px !important;
     top: -110px;
     left: -160px;
     margin-left: 2px;
@@ -216,11 +215,17 @@
     padding: 0;
 }
 .avatar-AvHqJA {
+    display: flex;
+    position: absolute;
+    width: 250px !important;
+    margin: 0;
     background-color: transparent;
     border-color: transparent;
-    top: -55px;
-    left: 55px;
+    justify-content: center;
+    top: -50px;
+    left: 10px;
     transform: scale(1.1) !important;
+    border: 0;
 }
 .avatar-AvHqJA:hover {
     transform: scale(1.2) !important;
@@ -271,6 +276,13 @@
     margin: 10px;
     top: 65px;
     right: 0;
+}
+.headerTop-547GTz .warningCircleIcon-3R0DLw {
+    position: absolute;
+    width: 250px;
+    top: -105px;
+    left: -160px;
+    margin-left: 2px;
 }
 .infoScroller-1Qu30O .base-1x0h_U,
 .infoScroller-1Qu30O .headerTagWithNickname-3l_x6x {
@@ -345,4 +357,16 @@ div[class="UserDetails-mutualServers-mutualGuild"] {
 }
 .UserDetails-dates-container.UserDetails-dates-icons.UserDetails-dates-userProfile {
     padding: 0 !important;
+}
+/* Guild profile */
+.guild-profile .guildDetail-1nRKNE {
+    position: relative;
+    top: 110px;
+    left: -150px;
+}
+.guild-profile .topSection-y3p-_D > header {
+    margin-bottom: 34px;
+}
+.guild-profile .avatar-AvHqJA {
+    margin-top: 10px;
 }
