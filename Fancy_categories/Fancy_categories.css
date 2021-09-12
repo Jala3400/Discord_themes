@@ -1,7 +1,8 @@
 :root{
-    --main-light-color: hsl(152, 100%, 50%); /* hsl(152, 100%, 50%) */
-    --main-color: hsl(152, 100%, 40%); /* hsl(152, 100%, 40%) */
-    --main-dark-color: hsl(152, 100%, 35%); /* hsl(152, 100%, 35%) */
+    --main-color-hue: 152;
+    --main-light-color: hsl(var(--main-color-hue), 100%, 60%); /* hsl(var(--main-color-hue), 100%, 60%) */
+    --main-color: hsl(var(--main-color-hue), 100%, 50%); /* hsl(var(--main-color-hue), 100%, 50%) */
+    --main-dark-color: hsl(var(--main-color-hue), 100%, 40%); /* hsl(var(--main-color-hue), 100%, 40%) */
     --s-transition-duration: 0.1s;
     --m-transition-duration: 0.3s;
     --l-transition-duration: 0.4s;
