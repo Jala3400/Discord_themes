@@ -1,5 +1,6 @@
 :root{
-    --main-light-color: hsl(152, 100%, 50%); /* hsl(152, 100%, 50%) */
+    --main-color-hue: 152;
+    --main-color: hsl(var(--main-color-hue), 100%, 50%); /* hsl(152, 100%, 50%) */
     --s-transition-duration: 0.1s;
 }
 /* Input */
@@ -17,10 +18,10 @@
     transition: var(--s-transition-duration);
 }
 .scrollableContainer-2NUZem:focus-within {
-    border-bottom: 2px ridge var(--main-light-color) !important;
+    border-bottom: 2px ridge var(--main-color) !important;
 }
 .fontSize16Padding-3Wk7zP {
-    caret-color: var(--main-light-color);
+    caret-color: var(--main-color);
 }
 .typing-2GQL18 {
     top: -17px;
