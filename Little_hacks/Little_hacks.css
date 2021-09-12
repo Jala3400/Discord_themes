@@ -1,4 +1,15 @@
+:root {
+    --main-color-hue: 152;
+    --main-light-color: hsl(var(--main-color-hue), 100%, 60%); /* hsl(var(--main-color-hue), 100%, 60%) */
+    --main-color: hsl(var(--main-color-hue), 100%, 50%); /* hsl(var(--main-color-hue), 100%, 50%) */
 
+    /* Transitions */
+    --xs-transition-duration: 0.05s;
+    --s-transition-duration: 0.1s;
+    --sm-transition-duration: 0.2s;
+    --m-transition-duration: 0.3s;
+    --l-transition-duration: 0.4s;
+}
 /* Search button */
 
 .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
@@ -87,7 +98,7 @@
 .embed-IeVjo6 > .embedTitleLink-1Zla9e,
 .markup-2BOw-j a,
 .content-2M3n_H a {
-    color: var(--main-light-color);
+    color: var(--main-color);
 }
 .markup-2BOw-j > [href^="http://"]
 {
