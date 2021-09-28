@@ -80,6 +80,7 @@
     position: absolute;
     bottom: 10px;
     left: 10px;
+    width: calc(var(--friend-width)*0.9);
 }
 .userInfo-2zN2z8 {
     position: relative;
